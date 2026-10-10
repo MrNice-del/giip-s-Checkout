@@ -1,0 +1,4 @@
+C:\Users\msdxt\Desktop\plugin-template-main (3)\plugin-template-main\build\classes\java\main\com\crimsonwarpedcraft\exampleplugin\CheckoutListener.class
+C:\Users\msdxt\Desktop\plugin-template-main (3)\plugin-template-main\build\classes\java\main\com\crimsonwarpedcraft\exampleplugin\CheckoutPlugin$Candidate.class
+C:\Users\msdxt\Desktop\plugin-template-main (3)\plugin-template-main\build\classes\java\main\com\crimsonwarpedcraft\exampleplugin\CheckoutPlugin$Requirement.class
+C:\Users\msdxt\Desktop\plugin-template-main (3)\plugin-template-main\build\classes\java\main\com\crimsonwarpedcraft\exampleplugin\CheckoutPlugin.class
