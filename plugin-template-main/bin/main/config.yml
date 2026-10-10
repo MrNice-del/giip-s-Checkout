@@ -1,0 +1,161 @@
+checkout:
+  interval-days: 7
+  # Fallback requirement used when randomized.enabled is false or no valid random item exists.
+  amount: 5
+  item: EMERALD
+  randomized:
+    enabled: true
+    # Enable only after the End is accessible on your SMP.
+    include-end-items: false
+    categories:
+      erze-und-barren:
+        enabled: true
+        items:
+          EMERALD: {min: 4, max: 8}
+          IRON_INGOT: {min: 16, max: 32}
+          GOLD_INGOT: {min: 10, max: 20}
+          COPPER_INGOT: {min: 32, max: 64}
+          RAW_IRON: {min: 24, max: 48}
+          RAW_GOLD: {min: 16, max: 32}
+          RAW_COPPER: {min: 32, max: 64}
+          IRON_NUGGET: {min: 32, max: 64}
+          GOLD_NUGGET: {min: 32, max: 64}
+          COAL: {min: 32, max: 64}
+          CHARCOAL: {min: 32, max: 64}
+          REDSTONE: {min: 32, max: 64}
+          LAPIS_LAZULI: {min: 24, max: 48}
+          DIAMOND: {min: 2, max: 4}
+          QUARTZ: {min: 24, max: 48}
+          AMETHYST_SHARD: {min: 16, max: 32}
+          COPPER_BLOCK: {min: 4, max: 8}
+          COAL_BLOCK: {min: 4, max: 8}
+          REDSTONE_BLOCK: {min: 4, max: 8}
+          LAPIS_BLOCK: {min: 3, max: 6}
+          IRON_BLOCK: {min: 2, max: 4}
+          GOLD_BLOCK: {min: 1, max: 2}
+      bau-und-stein:
+        enabled: true
+        items:
+          OBSIDIAN: {min: 8, max: 16}
+          BRICK: {min: 32, max: 64}
+          BRICKS: {min: 24, max: 48}
+          CLAY_BALL: {min: 32, max: 64}
+          TERRACOTTA: {min: 32, max: 64}
+          GLASS: {min: 32, max: 64}
+          QUARTZ_BLOCK: {min: 8, max: 16}
+          PRISMARINE_SHARD: {min: 8, max: 16}
+          PRISMARINE_CRYSTALS: {min: 8, max: 16}
+          SEA_LANTERN: {min: 4, max: 8}
+          PACKED_ICE: {min: 16, max: 32}
+          BLUE_ICE: {min: 4, max: 8}
+          TNT: {min: 8, max: 16}
+          TORCH: {min: 32, max: 64}
+          COBWEB: {min: 8, max: 16}
+      holz:
+        enabled: true
+        items:
+          OAK_LOG: {min: 32, max: 64}
+          SPRUCE_LOG: {min: 32, max: 64}
+          BIRCH_LOG: {min: 32, max: 64}
+          JUNGLE_LOG: {min: 32, max: 64}
+          ACACIA_LOG: {min: 32, max: 64}
+          DARK_OAK_LOG: {min: 32, max: 64}
+          MANGROVE_LOG: {min: 32, max: 64}
+          CHERRY_LOG: {min: 32, max: 64}
+          BAMBOO: {min: 32, max: 64}
+          PAPER: {min: 32, max: 64}
+          BOOK: {min: 8, max: 16}
+      mob-drops:
+        enabled: true
+        items:
+          BONE: {min: 24, max: 48}
+          STRING: {min: 24, max: 48}
+          GUNPOWDER: {min: 16, max: 32}
+          SPIDER_EYE: {min: 16, max: 32}
+          ROTTEN_FLESH: {min: 32, max: 64}
+          SLIME_BALL: {min: 8, max: 16}
+          ENDER_PEARL: {min: 3, max: 6}
+          LEATHER: {min: 16, max: 32}
+          FEATHER: {min: 32, max: 64}
+          INK_SAC: {min: 16, max: 32}
+          GLOW_INK_SAC: {min: 8, max: 16}
+          RABBIT_HIDE: {min: 16, max: 32}
+          PHANTOM_MEMBRANE: {min: 4, max: 8}
+          HONEYCOMB: {min: 8, max: 16}
+          HONEY_BOTTLE: {min: 4, max: 8}
+          TURTLE_SCUTE: {min: 3, max: 5}
+          ARMADILLO_SCUTE: {min: 3, max: 6}
+          EGG: {min: 8, max: 16}
+          ARROW: {min: 32, max: 64}
+          EXPERIENCE_BOTTLE: {min: 8, max: 16}
+          BREEZE_ROD: {min: 4, max: 8}
+      farming-und-essen:
+        enabled: true
+        items:
+          WHEAT: {min: 32, max: 64}
+          CARROT: {min: 32, max: 64}
+          POTATO: {min: 32, max: 64}
+          BEETROOT: {min: 32, max: 64}
+          MELON_SLICE: {min: 32, max: 64}
+          PUMPKIN: {min: 8, max: 16}
+          SUGAR_CANE: {min: 32, max: 64}
+          SUGAR: {min: 32, max: 64}
+          COCOA_BEANS: {min: 16, max: 32}
+          APPLE: {min: 16, max: 32}
+          SWEET_BERRIES: {min: 32, max: 64}
+          GLOW_BERRIES: {min: 16, max: 32}
+          KELP: {min: 32, max: 64}
+          DRIED_KELP: {min: 32, max: 64}
+          CACTUS: {min: 32, max: 64}
+          BONE_MEAL: {min: 32, max: 64}
+          BREAD: {min: 16, max: 32}
+          BAKED_POTATO: {min: 24, max: 48}
+          COOKED_BEEF: {min: 24, max: 48}
+          COOKED_PORKCHOP: {min: 24, max: 48}
+          COOKED_CHICKEN: {min: 24, max: 48}
+          COOKED_MUTTON: {min: 24, max: 48}
+          COOKED_SALMON: {min: 24, max: 48}
+          COOKED_COD: {min: 24, max: 48}
+          PUMPKIN_PIE: {min: 8, max: 16}
+          GOLDEN_CARROT: {min: 8, max: 16}
+          GOLDEN_APPLE: {min: 1, max: 2}
+      nether:
+        enabled: true
+        items:
+          NETHER_WART: {min: 16, max: 32}
+          NETHERRACK: {min: 64, max: 64}
+          NETHER_BRICK: {min: 32, max: 64}
+          SOUL_SAND: {min: 32, max: 64}
+          MAGMA_BLOCK: {min: 16, max: 32}
+          GLOWSTONE_DUST: {min: 16, max: 32}
+          GLOWSTONE: {min: 8, max: 16}
+          BLAZE_ROD: {min: 4, max: 8}
+          MAGMA_CREAM: {min: 4, max: 8}
+          BLACKSTONE: {min: 64, max: 64}
+          BASALT: {min: 64, max: 64}
+          GLISTERING_MELON_SLICE: {min: 4, max: 8}
+          GHAST_TEAR: {min: 1, max: 2}
+      end:
+        enabled: true
+        weight: 1.0
+        items:
+          END_STONE: {min: 32, max: 64}
+          END_STONE_BRICKS: {min: 16, max: 32}
+          CHORUS_FRUIT: {min: 8, max: 16}
+          POPPED_CHORUS_FRUIT: {min: 8, max: 16}
+          CHORUS_FLOWER: {min: 2, max: 4}
+          PURPUR_BLOCK: {min: 16, max: 32}
+          PURPUR_PILLAR: {min: 8, max: 16}
+          END_ROD: {min: 4, max: 8}
+          SHULKER_SHELL: {min: 2, max: 4, weight: 0.3}
+          DRAGON_BREATH: {min: 1, max: 3, weight: 0.3}
+          END_CRYSTAL: {min: 1, max: 2, weight: 0.3}
+      selten:
+        enabled: true
+        weight: 0.3
+        items:
+          SPONGE: {min: 1, max: 2}
+          NETHERITE_SCRAP: {min: 1, max: 2}
+          NETHER_STAR: {min: 1, max: 1, weight: 0.5}
+ban:
+  duration-days: 7

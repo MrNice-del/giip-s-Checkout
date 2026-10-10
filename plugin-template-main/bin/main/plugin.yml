@@ -1,0 +1,35 @@
+main: ${PACKAGE}.CheckoutPlugin
+name: ${NAME}
+version: "${VERSION}"
+api-version: "1.21"
+author: CrimsonWarpedcraft
+description: Wöchentlicher Server-Checkout mit automatischer Fristverwaltung.
+commands:
+  bezahlen:
+    description: Öffnet die Zahlungskasse des Servers.
+    usage: /bezahlen
+  zeit:
+    description: Zeigt die verbleibende Zeit bis zur nächsten Zahlung.
+    usage: /zeit
+  checkouttest:
+    description: Simuliert einen verpassten Checkout für den Bannscreen.
+    usage: /checkouttest
+    permission: giipscheckout.test
+  checkoutreload:
+    description: Lädt die Checkout-Config neu.
+    usage: /checkoutreload
+    permission: giipscheckout.reload
+  zahlungen:
+    description: Zeigt die Zahlungsübersicht aller erfassten Spieler.
+    usage: /zahlungen
+    permission: giipscheckout.payments
+permissions:
+  giipscheckout.test:
+    description: Erlaubt den Bannscreen-Testbefehl.
+    default: op
+  giipscheckout.reload:
+    description: Erlaubt das Neuladen der Checkout-Config.
+    default: op
+  giipscheckout.payments:
+    description: Erlaubt das Anzeigen der Zahlungsübersicht.
+    default: op
